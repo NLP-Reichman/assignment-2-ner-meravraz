@@ -1,5 +1,7 @@
 {
-  "test_link": "NameError(\"name 'NOTEBOOK_LINK' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_843/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_843/49652930.py\", line 8, in test_link\n    'link': NOTEBOOK_LINK\n            ^^^^^^^^^^^^^\nNameError: name 'NOTEBOOK_LINK' is not defined\n",
+  "test_link": {
+    "link": "https://colab.research.google.com/drive/1J5WrRLAx0wEPIP36BnLCXyNqhAZMB91z?usp=sharing"
+  },
   "test_read_data": {
     "lengths": [
       1750,
@@ -24,11 +26,11 @@
     ]
   },
   "test_NERNet": {
-    "f1": 0.9209520995280365,
-    "f1_wo_o": 0.7986412959415417
+    "f1": 0.9236367783933261,
+    "f1_wo_o": 0.8133515120277861
   },
   "test_glove": {
-    "f1": 0.9230761328638216,
-    "f1_wo_o": 0.8410249560160813
+    "f1": 0.9185908119592118,
+    "f1_wo_o": 0.8452427224640489
   }
 }
