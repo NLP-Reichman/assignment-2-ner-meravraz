@@ -1,1 +1,34 @@
-{}
+{
+  "test_link": "NameError(\"name 'NOTEBOOK_LINK' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_843/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_843/49652930.py\", line 8, in test_link\n    'link': NOTEBOOK_LINK\n            ^^^^^^^^^^^^^\nNameError: name 'NOTEBOOK_LINK' is not defined\n",
+  "test_read_data": {
+    "lengths": [
+      1750,
+      250,
+      500
+    ]
+  },
+  "test_vocab": {
+    "length": 7163,
+    "tag2id_length": 7,
+    "Spongebob": 1
+  },
+  "test_count_oov": {
+    "dev_oov": 638,
+    "test_oov": 1368
+  },
+  "test_prepare_data_loader": {
+    "lengths": [
+      110,
+      16,
+      32
+    ]
+  },
+  "test_NERNet": {
+    "f1": 0.9209520995280365,
+    "f1_wo_o": 0.7986412959415417
+  },
+  "test_glove": {
+    "f1": 0.9230761328638216,
+    "f1_wo_o": 0.8410249560160813
+  }
+}
